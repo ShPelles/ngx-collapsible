@@ -1,0 +1,15 @@
+.header-open {
+    color: red;
+}
+
+.header-collapsed {
+    color: black;
+}
+
+.content-open {
+    display: block;
+}
+
+.content-collapsed {
+    display: none;
+}

@@ -6,5 +6,15 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+  selected = ['use'];
+  accordion = false;
+
+  closeAll() {
+    this.selected = [];
+  }
+
+  onChange(event: Event) {
+    this.accordion = (event.target as HTMLInputElement).checked;
+  }
+
 }
