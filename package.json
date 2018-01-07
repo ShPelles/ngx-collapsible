@@ -3,6 +3,24 @@
   "description": "Independent collapsible / accordion module for Angular (2 & above). Without dependency on either Bootstrap or jQuery.",
   "version": "0.1.0",
   "license": "MIT",
+  "keywords": [
+    "angular",
+    "angular 2",
+    "angular 4",
+    "angular 5",
+    "collapsible",
+    "collapsable",
+    "accordion"
+  ],
+  "author": "Shalom pelles",
+  "homepage": "https://github.com/shalomdotnet/ngx-collapsible",
+  "bugs": {
+    "url": "https://github.com/shalomdotnet/ngx-collapsible/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shalomdotnet/ngx-collapsible.git"
+  },
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
