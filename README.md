@@ -39,19 +39,19 @@ import { AppComponent } from './app.component';
 export class AppModule { }
 ```
 
-### 2. Use the directive in your component:
+### 2. Use the `ngxCollapsible` directive in your component:
 
 ```html
 <div ngxCollapsible [selected]="selected" accordion="true">
 
-  <h2 collapsible-header="install">Header 1</h2>
-  <p collapsible-content="install">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+  <h2 collapsible-header="key1">Header 1</h2>
+  <p collapsible-content="key1">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
 
-  <h2 collapsible-header="use">Header 2</h2>
-  <p collapsible-content="use">Incidunt pariatur consequuntur fugit laborum facilis maxime fugiat dolores officiis impedit.</p>
+  <h2 collapsible-header="key2">Header 2</h2>
+  <p collapsible-content="key2">Incidunt pariatur consequuntur fugit laborum facilis maxime fugiat dolores officiis impedit.</p>
 
-  <h2 collapsible-header="changelog">Header 3</h2>
-  <p collapsible-content="changelog">non dolorum voluptatem maiores vel dolorem repellendus id nemo? Commodi, nam!</p>
+  <h2 collapsible-header="key3">Header 3</h2>
+  <p collapsible-content="key3">non dolorum voluptatem maiores vel dolorem repellendus id nemo? Commodi, nam!</p>
 
 </div>
 ```
